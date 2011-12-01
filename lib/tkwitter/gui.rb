@@ -20,7 +20,6 @@ class Tkwitter::GUI
   def clean_search
     @messages.collect(&:unpack)
     @messages.clear
-    @text_var.value = ''
   end
   
   def text
