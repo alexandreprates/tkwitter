@@ -1,0 +1,9 @@
+== Tkwitter ==
+
+  Tkwitter é uma aplicação de exemplo de como utilizar o TK[http://www.tcl.tk/] para a criação de softwares desktop com o Ruby.
+  
+== Requisitos ==
+
+  * Ruby 1.9.2
+  * Tlc/Tk
+  * Twitter (gem)

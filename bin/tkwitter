@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/tkwitter.rb'
+
+gui = Tkwitter::GUI.new do
+  search_me = gui.text
+  gui.clean_search
+  Tkwitter::Searcher.fetch(search_me) { |tweet| gui.populate tweet } 
+end
+
+gui.run
